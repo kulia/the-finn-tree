@@ -63,7 +63,7 @@ void print_tree(struct node tree)
 
 int main()
 {
-   struct node tree = create_tree_node("Yo mama!");
+   struct node tree = create_tree_node("Parent");
 
    struct node child_1 = create_tree_node("Ole");
    struct node child_2 = create_tree_node("Anna");
